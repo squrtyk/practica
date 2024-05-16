@@ -11,7 +11,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000bf;
+  background-color: #333333;
   max-width: 1920px;
   height: 72px;
   /* gap: 30px; */
@@ -49,6 +49,7 @@ a {
   font-family: "Commissioner";
   color: #fff;
   text-align: center;
+  margin-left: 50px;
 }
 
 .header-top-phone {
@@ -378,4 +379,267 @@ a {
 .search::before {
   content: url("images/Vector (4).png");
   margin-right: 5px;
+}
+
+.f {
+  width: 1920px;
+  height: 400px;
+}
+
+.footer-top {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1920px;
+  /* height: 256px; */
+  gap: 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  padding: 24px 320px;
+}
+
+.footer-top-firstblock {
+  width: 296px;
+  height: 208px;
+  gap: 30px;
+}
+
+.footer-top-firstblock img {
+  padding-bottom: 30px;
+}
+
+.footer-top-secondblock {
+  width: 296px;
+  height: 144px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.footer-top-thirdblock {
+  width: 296px;
+  height: 84px;
+  gap: 21px;
+  opacity: 0px;
+}
+
+.footer-top-fourthblock {
+}
+
+.footer-top-firstblock-contact-phonenumber {
+  width: 296px;
+  height: 20px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.footer-top-firstblock-contact-button {
+  padding-bottom: 30px;
+}
+
+.footer-button {
+  width: 296px;
+  height: 44px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #808080;
+  background-color: #333333;
+  color: #808080;
+  text-align: center;
+}
+
+.footer-button img {
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-top-firstblock-textinfo {
+  width: 296px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  color: #fff;
+}
+
+.footer-top-secondblock {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 296px;
+  height: 144px;
+  gap: 16px;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer-top-secondblock a {
+  color: #fff;
+}
+
+.footer-top-secondblock-buy {
+}
+
+.footer-top-secondblock-cell {
+}
+
+.footer-top-secondblock-service {
+  color: #6495ed;
+}
+.footer-top-secondblock-company {
+}
+
+.footer-top-thirdblock {
+  width: 296px;
+  height: 84px;
+  gap: 21px;
+  opacity: 0px;
+}
+
+.footer-top-thirdblock-text {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 21px;
+}
+
+.footer-top-thirdblock-icons {
+  display: flex;
+  width: 296px;
+  height: 44px;
+  gap: 16px;
+  text-align: center;
+}
+
+.footer-top-fourthblock {
+  width: 296px;
+  height: 155px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top-fourthblock-text {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-top-fourthblock-input {
+  width: Fill (296px) px;
+  height: Fixed (40px) px;
+  padding: 10px 8px 10px 8px;
+  gap: 16px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+
+  background-color: #fff;
+}
+
+.footer-input {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  /* width: 128px;
+  height: 19px; */
+  border: none;
+}
+
+.lupa {
+  padding-right: 16px;
+}
+
+.footer-top-fourthblock-checkbox {
+  width: 296px;
+  height: 24px;
+  gap: 4px;
+  opacity: 0px;
+}
+
+.footer-top-fourthblock-checkbox label {
+  font-family: "Exo 2";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  color: #fff;
+}
+
+.footer-top-fourthblock-checkbox label a {
+  font-family: "Exo 2";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  text-align: left;
+  color: #6495ed;
+}
+
+.subscribe {
+  width: 296px;
+  height: 40px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: #fff;
+  border-color: #fff;
+  background-color: #333333;
+}
+
+#checkbox {
+  transform: scale(1.231);
+}
+
+.vk {
+  padding-left: 36px;
+}
+
+.footer-bottom-text {
+  background-color: #6495ed;
+  color: #fff;
+  padding: 15px 495px 16px 496px;
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: center;
+}
+
+.footer-bottom {
+  width: 1920px;
+  height: 47px;
+  top: 256px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-button a {
+  color: #808080;
 }
