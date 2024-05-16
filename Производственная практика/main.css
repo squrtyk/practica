@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-top {
+  padding: 0 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000bf;
+  max-width: 1920px;
+  height: 72px;
+  /* gap: 30px; */
+}
+
+.plane {
+  width: 16px;
+  height: 16px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.header-top-logos {
+  width: 360px;
+  height: 24px;
+  gap: 32px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.header-top-city-name {
+  font-family: Commissioner;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.header-top-city {
+  display: flex;
+  text-align: flex-end;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Commissioner";
+  color: #fff;
+  text-align: center;
+}
+
+.header-top-phone {
+  width: 196px;
+  height: 38px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.header-top-phone-number {
+  order: 1;
+}
+
+.header-top-phone-text {
+  order: 2;
+}
+
+.phone {
+  width: 16px;
+  height: 16px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.header-top-phone-number {
+  width: 196px;
+  height: 20px;
+  font-family: "Commissioner";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: right;
+  color: #6495ed;
+}
+
+.header-top-phone-text {
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.header-top-widget {
+  display: flex;
+  text-align: center;
+  /* padding: 8px; */
+  width: 473px;
+  height: 34px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.header-top-widget-first {
+  display: flex;
+  text-align: center;
+  width: 112px;
+  height: 34px;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.header-top-widget-first-text {
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: right;
+  color: #808080;
+}
+
+.header-top-widget-second {
+  display: flex;
+  width: 113px;
+  height: 34px;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+}
+
+.header-top-widget-second-text {
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: right;
+  color: #808080;
+  width: 72px;
+  height: 18px;
+}
+
+.header-top-widget-third {
+  position: relative;
+  display: flex;
+  width: 119px;
+  height: 34px;
+  padding: 0px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.header-top-widget-third-text {
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: right;
+  color: #fff;
+  width: 79px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.header-top-widget-fourth {
+  display: flex;
+  text-align: center;
+  width: 81px;
+  height: 34px;
+  padding: 8px 0px 0px 0px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.header-top-widget-fourth-text {
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: right;
+  color: #808080;
+  width: 41px;
+  height: 18px;
+}
+
+.first {
+  width: 10px;
+  height: 16px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.second {
+  width: 16px;
+  height: 14px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.third {
+  width: 16px;
+  height: 16px;
+  gap: 10px;
+}
+
+.fourth {
+  width: 16px;
+  height: 16px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.header-top-widget-third-circle {
+  background-color: #6495ed;
+  width: 14px;
+  height: 14px;
+  padding: 2px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 50%;
+  font-family: "Commissioner";
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 11.01px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header-bottom {
+  width: Fill (1, 920px) px;
+  height: Fixed (48px) px;
+  gap: 8px;
+  border: 1px 0px 1px 0px;
+  opacity: 0px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0 320px;
+}
+
+.header-bottom-left {
+  display: flex;
+  margin: 8px 0;
+  width: 697px;
+  height: 30px;
+  gap: 60px;
+}
+
+.header-bottom-left-buy {
+  display: flex;
+  width: Hug (167px) px;
+  height: Hug (30px) px;
+  padding: 4px 0px 4px 0px;
+  gap: 4px;
+  opacity: 0px;
+}
+
+.header-bottom-left-buy-text {
+  width: 147px;
+  height: 22px;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #808080;
+}
+
+.header-bottom-left-cell {
+  display: flex;
+  width: Hug (179px) px;
+  height: Hug (30px) px;
+  padding: 4px 0px 4px 0px;
+  gap: 4px;
+  opacity: 0px;
+}
+
+.header-bottom-left-cell-text {
+  width: 159px;
+  height: 22px;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #808080;
+  text-align: left;
+}
+
+.header-bottom-left-service {
+  display: flex;
+  width: Hug (75px) px;
+  height: Hug (30px) px;
+  padding: 4px 0px 4px 0px;
+  gap: 4px;
+  opacity: 0px;
+}
+
+.header-bottom-left-service-text {
+  width: 55px;
+  height: 22px;
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #808080;
+}
+
+.header-bottom-left-company {
+  display: flex;
+  width: Hug (96px) px;
+  height: Hug (30px) px;
+  padding: 4px 0px 4px 0px;
+  gap: 4px;
+  opacity: 0px;
+}
+
+.header-bottom-left-company-text {
+  width: 76px;
+  height: 22px;
+  gap: 0px;
+  color: #808080;
+  opacity: 0px;
+
+  font-family: "Commissioner";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.header-bottom img {
+  width: 16px;
+  height: 16px;
+  gap: 10px;
+  padding: 5px 0 0 0;
+}
+
+.zalupa {
+  width: 16px;
+  height: 16px;
+  gap: 0px;
+  padding: 8px 8px 8px 16px;
+  border: 1.5px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.header-bottom-right {
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.search {
+  margin: 8px 0;
+  width: 260px;
+  height: 32px;
+  padding: 13px 16px 13px 16px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1px solid #eeeeee;
+  text-align: left;
+  font-family: "Commissioner";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  position: relative;
+  color: #808080;
+}
+
+.search::before {
+  content: url("images/Vector (4).png");
+  margin-right: 5px;
+}
