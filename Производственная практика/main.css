@@ -6,13 +6,21 @@ a {
   text-decoration: none;
 }
 
+/* Todo в верстке мы почти всегда используем прием с контейнером,
+     нужно сделать верстку используя понятие контейнера
+     Подробнее можно прочитать тут
+      https://habr.com/ru/companies/ruvds/articles/509194/ */
+
 .header-top {
+  /* Todo очень большие отступы, так делать не надо */
   padding: 0 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #333333;
+  /* Todo очень большие отступы, так делать не надо */
   max-width: 1920px;
+  /* Todo фиксированная высота для контейнеров с элементами, очень плохо, так как если у тебя добавится кол-во элементов, то верстка просто будет вести себя не предсказуемо, так как ей нужно больше места,  аты ее ограничил в 72px */
   height: 72px;
   /* gap: 30px; */
 }
@@ -22,7 +30,8 @@ a {
   height: 16px;
   border: 1.5px 0px 0px 0px;
 }
-
+/* Todo базовый класс должен отделятся от всего остального с помощью __ прочитать можно тут
+     https://ru.bem.info/methodology/quick-start/#%D0%B2%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-1 */
 .header-top-logos {
   width: 360px;
   height: 24px;
@@ -31,7 +40,7 @@ a {
   align-items: flex-end;
   padding-bottom: 10px;
 }
-
+/* Todo переделать все вложенности класа как описал выше, ниже писать не буду, тобы не повторяться */
 .header-top-city-name {
   font-family: Commissioner;
   font-size: 14px;
@@ -46,6 +55,9 @@ a {
   gap: 8px;
   font-size: 14px;
   line-height: 16px;
+  /* Todo использования шрифта вижу, но не вижу подключение в css и вообще его наличия в файлах,
+       также нужно всегда указывать несколько шрифтов, минимум один стандартный,
+        если вдруг кастомный не загрузился или не подключен */
   font-family: "Commissioner";
   color: #fff;
   text-align: center;
@@ -55,6 +67,7 @@ a {
 .header-top-phone {
   width: 196px;
   height: 38px;
+  /* Todo если пишем 0, единицы измерения не пишем, дальше писать не буду, чтобы не повторяться */
   gap: 0px;
   opacity: 0px;
 }
@@ -189,24 +202,28 @@ a {
   height: 18px;
 }
 
+/* Todo очень не говорящие классы */
 .first {
   width: 10px;
   height: 16px;
   border: 1.5px 0px 0px 0px;
 }
 
+/* Todo очень не говорящие классы */
 .second {
   width: 16px;
   height: 14px;
   border: 1.5px 0px 0px 0px;
 }
 
+/* Todo очень не говорящие классы */
 .third {
   width: 16px;
   height: 16px;
   gap: 10px;
 }
 
+/* Todo очень не говорящие классы */
 .fourth {
   width: 16px;
   height: 16px;
@@ -231,6 +248,7 @@ a {
   bottom: 0;
 }
 
+/* Todo что такое Fill и Fixed? */
 .header-bottom {
   width: Fill (1, 920px) px;
   height: Fixed (48px) px;
@@ -251,6 +269,7 @@ a {
   gap: 60px;
 }
 
+/* Todo что такое Hug? */
 .header-bottom-left-buy {
   display: flex;
   width: Hug (167px) px;
@@ -341,6 +360,7 @@ a {
   padding: 5px 0 0 0;
 }
 
+/* Todo интересный класс */
 .zalupa {
   width: 16px;
   height: 16px;
@@ -381,6 +401,7 @@ a {
   margin-right: 5px;
 }
 
+/* Todo кажется очень мешает адаптиву */
 .f {
   width: 1920px;
   height: 400px;
@@ -399,6 +420,7 @@ a {
 }
 
 .footer-top-firstblock {
+  /* Todo а если информации будет больше или меньше? точно ли фиксированные величины помогают? */
   width: 296px;
   height: 208px;
   gap: 30px;
@@ -409,6 +431,7 @@ a {
 }
 
 .footer-top-secondblock {
+  /* Todo тоже самое что и выше? */
   width: 296px;
   height: 144px;
   gap: 16px;
@@ -422,6 +445,7 @@ a {
   opacity: 0px;
 }
 
+/* Todo пустые классы мы удаляем */
 .footer-top-fourthblock {
 }
 
@@ -468,6 +492,7 @@ a {
   height: 44px;
   gap: 0px;
   opacity: 0px;
+  /* Todo использования шрифта вижу, но не вижу подключение в css и вообще его наличия в файлах */
   font-family: "Exo 2";
   font-size: 16px;
   font-weight: 300;
@@ -571,6 +596,7 @@ a {
   border: none;
 }
 
+/* Todo этот брат класс с другим интересным классом выше? */
 .lupa {
   padding-right: 16px;
 }
@@ -617,6 +643,7 @@ a {
   transform: scale(1.231);
 }
 
+/* Todo а если эту иконку уберем, отступ потеряется? а если поменяем их местами? */
 .vk {
   padding-left: 36px;
 }
@@ -624,6 +651,7 @@ a {
 .footer-bottom-text {
   background-color: #6495ed;
   color: #fff;
+  /* Todo кажется что отсутпы в 100+ пикселей даже большие, а в 400 так сверх большие */
   padding: 15px 495px 16px 496px;
   font-family: "Exo 2";
   font-size: 14px;
@@ -633,6 +661,7 @@ a {
 }
 
 .footer-bottom {
+  /* Todo точно нужна такая большая фиксированная ширина? */
   width: 1920px;
   height: 47px;
   top: 256px;
